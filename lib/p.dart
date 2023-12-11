@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class testproj extends StatelessWidget {
-  testproj({Key? key}) : super(key: key);
+class Testproj extends StatelessWidget {
+  Testproj({Key? key}) : super(key: key);
 
     @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class testproj extends StatelessWidget {
             title: TextButton(onPressed: () => {},child :Text('Select')),
             backgroundColor: Colors.amber,
             actions: [
-              Padding(
+              const Padding(
                   padding: EdgeInsets.all(10),
                   child: SizedBox(
                       width: 210,
@@ -21,7 +21,7 @@ class testproj extends StatelessWidget {
                       )),
                      
               ),
-                SizedBox(
+                const SizedBox(
                         child: TextField(
                           decoration: InputDecoration(
                               border: OutlineInputBorder(),

@@ -17,7 +17,7 @@ class _ComissionState extends State<Comission> {
             title: Text('Select'),
             backgroundColor: Colors.amber,
             actions: [
-              Padding(
+              const Padding(
                   padding: EdgeInsets.all(10),
                   child: SizedBox(
                       width: 200,
@@ -42,7 +42,7 @@ class _ComissionState extends State<Comission> {
               child: Column(
                 children:[
               SizedBox(height: 20,),
-              SafeArea(
+              const SafeArea(
               //height: 50,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
